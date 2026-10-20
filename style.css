@@ -1,0 +1,33 @@
+:root{--p:#1769e0;--d:#0b2a5b;--t:#0fa3a3;--bg:#f4f7fb;--tx:#1b2a41;--mu:#5b6b82}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Segoe UI,Inter,Arial,sans-serif;color:var(--tx);background:var(--bg);line-height:1.65}
+a{color:var(--p)}.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+.top{background:#fff;border-bottom:1px solid #e3e9f2;position:sticky;top:0;z-index:9}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;padding-top:10px;padding-bottom:10px}
+.brand{font-weight:700;color:var(--d);text-decoration:none}.brand small{display:block;font-weight:400;color:var(--mu);font-size:.72rem}
+nav{display:flex;flex-wrap:wrap;gap:4px}nav a{text-decoration:none;color:var(--tx);padding:7px 12px;border-radius:20px;font-size:.92rem}nav a:hover{background:#e8f0fd}nav a.on{background:var(--p);color:#fff}
+.hero{background:linear-gradient(135deg,#0b2a5b,#1769e0 60%,#0fa3a3);color:#fff;padding:60px 0}
+.hero .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:30px;align-items:center}
+.eyebrow{display:inline-block;background:#ffffff26;padding:4px 12px;border-radius:20px;font-size:.8rem;margin-bottom:12px}
+.hero h1{font-size:2.3rem;line-height:1.2;margin:.2em 0}.hero p{opacity:.92;max-width:560px}
+.btn{display:inline-block;padding:11px 20px;border-radius:24px;text-decoration:none;font-weight:600;margin:6px 8px 0 0;background:#fff;color:var(--d)}.btn.o{background:transparent;color:#fff;border:1px solid #fff9}
+.phone{width:210px;margin:auto;background:#0b1730;border-radius:30px;padding:12px;box-shadow:0 20px 40px #0005}
+.screen{background:#fff;color:var(--tx);border-radius:22px;padding:16px 14px;min-height:300px;font-size:.82rem}
+.screen b{color:var(--d)}.chip{display:inline-block;background:#e8f0fd;color:var(--p);border-radius:12px;padding:2px 9px;margin:3px 3px 0 0;font-size:.72rem}
+.bar{height:8px;background:#e3e9f2;border-radius:6px;margin:6px 0}.bar i{display:block;height:8px;width:72%;background:var(--t);border-radius:6px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:-30px auto 10px;position:relative}
+.stat{background:#fff;border-radius:12px;padding:16px;text-align:center;box-shadow:0 4px 14px #0b2a5b14}.stat b{display:block;font-size:1.6rem;color:var(--p)}.stat span{color:var(--mu);font-size:.85rem}
+section.s{padding:36px 0}.k{color:var(--t);font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+h2{color:var(--d);font-size:1.6rem;margin:.2em 0 .5em}h3{color:var(--d);margin:.2em 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:#fff;border-radius:14px;padding:20px;box-shadow:0 2px 10px #0b2a5b12}.card .n{color:var(--t);font-weight:700}
+.page{padding:36px 0}.page .card{margin-bottom:16px}
+.fig{background:#fff;border-radius:14px;padding:14px;text-align:center}.fig img{max-width:100%;height:auto;border-radius:8px}.fig p{color:var(--mu);font-size:.85rem;margin:6px 0 0}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}td,th{padding:11px 12px;border-bottom:1px solid #e3e9f2;text-align:left;vertical-align:top}th{background:#e8f0fd;color:var(--d)}
+.tag{background:#fff3cd;border-radius:10px;padding:2px 9px;font-size:.8rem}.ok{background:#d9f5e5}
+select{padding:10px 14px;font-size:1rem;border-radius:8px;border:1px solid #c5d3ea;min-width:260px}
+.person{text-align:center}.ph{width:120px;height:120px;border-radius:50%;background:var(--p);color:#fff;font-size:2.2rem;line-height:120px;margin:0 auto 12px;position:relative;overflow:hidden}.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pdiv{display:none}.pdiv.show{display:block}
+.cta{background:var(--d);color:#fff;border-radius:16px;padding:30px;text-align:center}.cta h2{color:#fff}
+footer{text-align:center;color:var(--mu);padding:26px 10px;font-size:.88rem}
+pre{background:#fff;padding:14px;border-radius:10px;white-space:pre-wrap}
+@media(max-width:760px){.hero .wrap{grid-template-columns:1fr}.hero h1{font-size:1.8rem}.phone{display:none}}
